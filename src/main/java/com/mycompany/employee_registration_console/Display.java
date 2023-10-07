@@ -442,7 +442,7 @@ public class Display extends javax.swing.JFrame {
         //    ---------------------------VALIDATION EMAIL ID ------------------------------
     
 
-        String emailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
+        String emailPattern = "^[a-zA-Z0-9._%+-]+@gmail\\.com$";
         Pattern patternEmailid = Pattern.compile(emailPattern);
         Matcher matcherEmailid = patternEmailid.matcher(emailid);
         
@@ -654,7 +654,7 @@ public class Display extends javax.swing.JFrame {
         //    ---------------------------VALIDATION EMAIL ID ------------------------------
     
 
-        String emailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
+        String emailPattern = "^[a-zA-Z0-9._%+-]+@gmail\\.com$";
         Pattern patternEmailid = Pattern.compile(emailPattern);
         Matcher matcherEmailid = patternEmailid.matcher(emailid);
         
